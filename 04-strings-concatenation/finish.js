@@ -10,3 +10,9 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const myName = 'Alexander';
+const mySurname = 'Nachmanovich';
+const myProfession = 'metahnet';
+let about = `My name is ${myName} ${mySurname} and I am ${myProfession}`;
+console.log(about);

@@ -7,3 +7,11 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+// Comment
+
+let a = [2, 5, 8]; // Array
+
+/** I made and array
+ *  and blablabla
+ */

@@ -10,3 +10,18 @@
  *
  * 5. Результат вызовов функции выведите в консоль
  */
+
+// Variant 1
+let fn = function (name) {
+  console.log(`Hello, ${name}`)
+};
+
+fn('Kostya');
+fn('Timur');
+
+// Variant 2
+let fun = function (name) {
+  return 'Hello, ' + name;
+}
+console.log(fun('Sasha'));
+console.log(fun('Huyasha'));
